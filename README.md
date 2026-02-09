@@ -138,3 +138,6 @@ use: {
 | pixelmatch | Compares two images pixel by pixel |
 | pngjs | Reads and writes PNG files |
 | Node.js | Runs everything |
+
+<img width="1865" height="841" alt="image" src="https://github.com/user-attachments/assets/dd4396dc-ef1a-4b2d-9903-0b1cd1fb84d5" />
+
