@@ -1,0 +1,24 @@
+{
+  "name": "visual-regression-testing",
+  "version": "1.0.0",
+  "description": "Visual regression testing framework to detect UI changes automatically using Playwright + pixelmatch",
+  "main": "compare.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "compare": "node compare.js",
+    "test:visual": "npx playwright test && node compare.js",
+    "baseline:reset": "rm -rf baseline/* current/* diff/* reports/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.3",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.58.2",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
